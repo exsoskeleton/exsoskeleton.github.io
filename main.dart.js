@@ -28847,7 +28847,7 @@ a4=f
 c=document.createElement("a")
 c.toString
 if(a4!=null)c.href=a4
-c.download="report.pdf"
+c.setAttribute("download","report.pdf")
 c.click();(self.URL||self.webkitURL).revokeObjectURL(f)
 a9.am(t.Pu).f.ny(B.aT1)
 q=1
